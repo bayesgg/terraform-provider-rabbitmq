@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/bayesgg/terraform-provider-rabbitmq/internal/acceptance"
 	rabbithole "github.com/michaelklishin/rabbit-hole/v2"
-	"github.com/rfd59/terraform-provider-rabbitmq/internal/acceptance"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"

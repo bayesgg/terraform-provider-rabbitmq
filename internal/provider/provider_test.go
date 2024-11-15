@@ -3,8 +3,8 @@ package provider_test
 import (
 	"testing"
 
+	"github.com/bayesgg/terraform-provider-rabbitmq/internal/provider"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/rfd59/terraform-provider-rabbitmq/internal/provider"
 )
 
 func TestProvider(t *testing.T) {

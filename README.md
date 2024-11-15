@@ -4,15 +4,15 @@
 
 # Terraform Provider for RabbitMQ
 
-![GitHub Release](https://img.shields.io/github/v/release/rfd59/terraform-provider-rabbitmq)
-![GitHub Issues](https://img.shields.io/github/issues/rfd59/terraform-provider-rabbitmq)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/rfd59/terraform-provider-rabbitmq)
-![GitHub License](https://img.shields.io/github/license/rfd59/terraform-provider-rabbitmq)
+![GitHub Release](https://img.shields.io/github/v/release/bayesgg/terraform-provider-rabbitmq)
+![GitHub Issues](https://img.shields.io/github/issues/bayesgg/terraform-provider-rabbitmq)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/bayesgg/terraform-provider-rabbitmq)
+![GitHub License](https://img.shields.io/github/license/bayesgg/terraform-provider-rabbitmq)
 
-![Go version](https://img.shields.io/github/go-mod/go-version/rfd59/terraform-provider-rabbitmq)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/rfd59/terraform-provider-rabbitmq/.github%2Fworkflows%2Fbuild.yml)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/rfd59/terraform-provider-rabbitmq/.github%2Fworkflows%2Ftest.yml?label=test)
-![Coverage](https://sonar.rfd.ovh/api/project_badges/measure?project=rfd59.terraform-provider-rabbitmq&metric=coverage&token=sqb_44b6ae8e30de40b0d76cc3bcfad1a5e2e3f3c0c0)
+![Go version](https://img.shields.io/github/go-mod/go-version/bayesgg/terraform-provider-rabbitmq)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/bayesgg/terraform-provider-rabbitmq/.github%2Fworkflows%2Fbuild.yml)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/bayesgg/terraform-provider-rabbitmq/.github%2Fworkflows%2Ftest.yml?label=test)
+![Coverage](https://sonar.rfd.ovh/api/project_badges/measure?project=bayesgg.terraform-provider-rabbitmq&metric=coverage&token=sqb_44b6ae8e30de40b0d76cc3bcfad1a5e2e3f3c0c0)
 
 [RabbitMQ](https://rabbitmq.com) is an AMQP message broker server. The **RabbitMQ provider** exposes resources used to manage the configuration of resources in a RabbitMQ server.
 
@@ -26,7 +26,7 @@ The provider supports versions `4.0.x`, `3.13.x` and `3.12.x` of RabbitMQ. It ma
 terraform {
   required_providers {
     rabbitmq = {
-      source = "rfd59/rabbitmq"
+      source = "bayesgg/rabbitmq"
       version = "2.1.0"
     }
   }
@@ -94,7 +94,7 @@ To launch the **examples** terraform scripts with your local Provider, follow th
    provider_installation {
 
    dev_overrides {
-         "rfd59/rabbitmq" = "${GOPATH}/bin"
+         "bayesgg/rabbitmq" = "${GOPATH}/bin"
    }
 
    # For all other providers, install them directly from their origin provider

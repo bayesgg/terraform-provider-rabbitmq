@@ -10,8 +10,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 FIX:
 
 * Fix vhost resource - @rfavreau
-  ([#16](https://github.com/rfd59/terraform-provider-rabbitmq/pull/16))
-  > - Import `default_queue_type` when reading vhost resource ([#14](https://github.com/rfd59/terraform-provider-rabbitmq/pull/14))
+  ([#16](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/16))
+  > - Import `default_queue_type` when reading vhost resource ([#14](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/14))
   > - Fix `default_queue_type` for _RabbitMQ 3.10_
   > - Validate function for `default_queue_type` attribute
   > - Set default value for `default_queue_type`
@@ -20,45 +20,45 @@ FIX:
 BUILD / DEV:
 
 * Update GitHub Actions - @rfavreau
-  ([#15](https://github.com/rfd59/terraform-provider-rabbitmq/pull/15))
+  ([#15](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/15))
 
 * GitHub settings - @rfavreau
-  ([#18](https://github.com/rfd59/terraform-provider-rabbitmq/pull/18))
+  ([#18](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/18))
 
 ## 2.1.0 (May 26, 2024)
 
 FEATURES:
 
 * Manage the user limits - @rfavreau
-  ([#10](https://github.com/rfd59/terraform-provider-rabbitmq/pull/10))
+  ([#10](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/10))
 
 BUILD / DEV:
 
 * New repository structure - @rfavreau
-  ([#11](https://github.com/rfd59/terraform-provider-rabbitmq/pull/11))
+  ([#11](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/11))
 
 * Build task for Provider documentation - @rfavreau
-  ([#12](https://github.com/rfd59/terraform-provider-rabbitmq/pull/12))
+  ([#12](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/12))
 
 ## 2.0.0 (May 20, 2024)
 
 FEATURES:
 
 * Added vhost options/limits and Added shovel parameters - @Galvill
-  ([#3](https://github.com/rfd59/terraform-provider-rabbitmq/pull/3))
+  ([#3](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/3))
 
 FIX:
 
 * Add already exists exceptions and enhance errors - @Chahed
-  ([#6](https://github.com/rfd59/terraform-provider-rabbitmq/pull/6))
+  ([#6](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/6))
 
 BUILD / DEV:
 
 * Update project - @rfavreau
-  ([#2](https://github.com/rfd59/terraform-provider-rabbitmq/pull/2))
+  ([#2](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/2))
 
 * Update GitHub Actions - @rfavreau
-  ([#7](https://github.com/rfd59/terraform-provider-rabbitmq/pull/7))
+  ([#7](https://github.com/bayesgg/terraform-provider-rabbitmq/pull/7))
 
 ## 1.8.0 (March 15, 2023)
 

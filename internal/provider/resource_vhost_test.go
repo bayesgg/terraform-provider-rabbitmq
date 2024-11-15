@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/rfd59/terraform-provider-rabbitmq/internal/acceptance"
-	"github.com/rfd59/terraform-provider-rabbitmq/internal/acceptance/check"
+	"github.com/bayesgg/terraform-provider-rabbitmq/internal/acceptance"
+	"github.com/bayesgg/terraform-provider-rabbitmq/internal/acceptance/check"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 )
